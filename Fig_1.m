@@ -10,12 +10,12 @@ averages=[];
 names={};
 count_names=1;
 template=[];
-for count_1=3:size(dir0,1)
-    dir1 = dir(strcat('train',filesep,dir0(count_1).name));
-    for count_2=3:size(dir1,1)
+for count_1     =3:size(dir0,1)
+    dir1        = dir(strcat('train',filesep,dir0(count_1).name));
+    for count_2 =3:size(dir1,1)
         names{count_names,1}=dir1(count_2).name;
 
-        im = imread(strcat('train',filesep,dir0(count_1).name,filesep,dir1(count_2).name));
+        im      = imread(strcat('train',filesep,dir0(count_1).name,filesep,dir1(count_2).name));
         template(:,:,:,count_names) = imresize(im,[128 128]);
         [rows,cols,levs]=size(im);
         background_r = mean(mean(im(1:5,:,1)));
