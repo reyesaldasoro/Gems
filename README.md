@@ -1,5 +1,6 @@
 # Gems
  
+<img src="Figures/Fig_1_montage.png"  height="250" />
 
 <a name="citation"/>
 <h2> Citation </h2>
