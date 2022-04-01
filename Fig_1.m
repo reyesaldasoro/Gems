@@ -3,7 +3,9 @@
 clear all 
 close all
 
-%%
+%% processing here
+
+
 
 dir0=dir('train');
 averages=[];
