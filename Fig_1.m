@@ -2,7 +2,7 @@
 % im=amber_9;
 clear all 
 close all
-
+cd('C:\Users\sbbk034\OneDrive - City, University of London\Documents\GitHub\Gems')
 %% processing here
 
 
